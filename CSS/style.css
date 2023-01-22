@@ -417,11 +417,11 @@ margin:0 0 10px 0;
         margin-right: px;}
     section{flex-direction: column-reverse;}
     .column{flex-direction: column;}
-    .activites{flex-direction: column;}
     footer{flex-direction: column;}
     .cancel{display: none;}
     .card3{width: 100%;
-            height: 190px;}
+            height: 190px;
+            margin-bottom: 27px;}
     .card{width: auto;
             height: 190px;
             margin-bottom: 13px;}
@@ -439,5 +439,15 @@ margin:0 0 10px 0;
     .title{margin: 22px 0 22px 24px;}
     .column{padding:0 18px 0 18px ;}
     .dernier{margin-top: 30px}
+    .activites{flex-direction: column;
+            padding:0 18px 0 18px ;}
+    .actmarseille{margin-left: 18px;
+                margin-bottom: 5px;
+                width: 200px;}
+    .act{height: 70%;}
+    .foot{width: 90%;
+            margin-top: 50px;
+        padding-left: 25px;}
+    footer{height: 600px;}
 
 }
