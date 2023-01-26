@@ -38,7 +38,7 @@ header
     display: flex;
     flex-direction: row;
 }
-/* mettre les liens pour les boutons hebergement et activites*/
+
 .bouton
 {
     margin-right: 35px;       
@@ -73,7 +73,7 @@ nav{
 }
 h3{
     padding: 12px 20px;
-    font-size: medium;
+    font-size: 14.9px;
     border: solid;
     border-color: #D9D9D9;
     border-radius: 25px;
@@ -215,6 +215,8 @@ h4{
     margin: 4px;
     margin-bottom: 5px;
 }
+.bold
+{font-weight: bold;}
 
 .divtitle{
     display: flex;
@@ -235,7 +237,6 @@ h4{
 }
 p{
     margin-left: 3px;
-    margin-bottom: px;
     margin-top: 0px;
     font-size: small;
 }
@@ -364,7 +365,9 @@ margin:0 0 10px 0;
     .hebergement{width: 100%;}
     .populaires{width: 100%;}
     .all{flex-direction: row;}
-    h3{margin-left: 20px;}
+    h3{margin-left: 20px;
+        padding: 9px 4px 9px 9px;
+        font-size: 15px;}
     .hebergement{padding:0%;
             margin-bottom: 50px;}
     .populaires{padding: 0%;
@@ -392,6 +395,7 @@ margin:0 0 10px 0;
             border-top: 0ch;}
     nav{padding:0 20px 0 20px;
     margin-top: -5px;}
+    form[action='#']{width: 90%;}
     .recherche{height: 50px;
     justify-content: center;}
     .cancel{display: none;}
@@ -413,8 +417,7 @@ margin:0 0 10px 0;
         padding: 4px 9px;
         border-width: 1px;
         margin-right: 10px;}
-    .big{font-size: large;
-        margin-right: px;}
+    .big{font-size: large;}
     section{flex-direction: column-reverse;}
     .column{flex-direction: column;}
     footer{flex-direction: column;}
@@ -433,7 +436,7 @@ margin:0 0 10px 0;
     .all{flex-direction: column;}
     .populaires{border-radius: 0px;
                 height: 520px;
-            padding-bottom: 50px;}
+            padding-bottom: 80px;}
     .hebergement{height: auto;
                 background-color: white;}
     .title{margin: 22px 0 22px 24px;}
