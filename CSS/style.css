@@ -44,14 +44,14 @@ header
     margin-right: 35px;       
     margin-left: 35px;     
     padding-top: 30px; 
-    border-top: white solid ;
+    border-top: white solid 2px;
    
 
 }
 .bouton:hover
 {
     color: #0065FC;
-    border-top: solid 1px;  
+    border-top: solid 2px;  
 }     
 
 img[alt='BOOKI']{
@@ -151,7 +151,7 @@ input[type='text']{
     margin:27px 0 36px 0;
     font-size: medium;
 }
-                                                /* 3ieme partie */
+                                                /* GRANDE SECTION */
 section{
     margin-top:25px;
     margin-bottom: 25px;
@@ -390,9 +390,11 @@ margin:0 0 10px 0;
         align-items: center;
         width: 50%;
         padding: 0%;
-        margin: 0;}
-    .bouton:hover{border-bottom: #0065FC solid 3px;
-            border-top: 0ch;}
+        margin: 0;
+        border-bottom: white solid 2px;
+        border-top: 0ch;}
+    .bouton:hover{border-bottom: #0065FC solid 2px;
+        border-top: 0ch;}
     nav{padding:0 20px 0 20px;
     margin-top: -5px;}
     form[action='#']{width: 90%;}
