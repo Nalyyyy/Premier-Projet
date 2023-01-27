@@ -391,9 +391,9 @@ margin:0 0 10px 0;
         width: 50%;
         padding: 0%;
         margin: 0;
-        border-bottom: white solid 2px;
+        border-bottom: #DEEBFF solid 3px;
         border-top: 0ch;}
-    .bouton:hover{border-bottom: #0065FC solid 2px;
+    .bouton:hover{border-bottom: #0065FC solid 3px;
         border-top: 0ch;}
     nav{padding:0 20px 0 20px;
     margin-top: -5px;}
